@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles/pages.css'>
+    <script src='../js/pages.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    
+</head>
+
+<body>
+    <div id="bg"></div>
+    <script>
+        VANTA.WAVES({
+          el: "#bg",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          shininess: 18.00,
+          waveSpeed: 0.95,
+          zoom: 0.65
+        })
+    </script>
+    <div id="myName">
+        <b>Sean Tran</b>
+    </div>
+    <div id="navBar">
+        <div>
+            <button> <a href="../pages/index.html">Home</a></button>
+            <button> <a href="../pages/aboutMe.html"><b>About me</b></a></button>
+            <button> <a href="../pages/projects.html"> Projects</a></button>
+            <button> <a href="../pages/contactMe.html"> Contact Me</a></button>
+        </div>
+        
+    </div>
+    <div id="textbox"><b><w>Hello There!</w></b> <div>&nbsp</div>
+        <div>My name is Sean and I am a senior majoring in Computer Science at George Mason University. 
+        I currently have an interest in mobile and full-stack web development. My skills include: Python, Java, C, HTML/CSS, and Javascript.</div>
+        <div>&nbsp</div>
+    
+    </div>
+</body>
+
+</html>

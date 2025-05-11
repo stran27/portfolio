@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles/pages.css'>
+    <script src='../js/pages.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    
+</head>
+
+<body>
+    <div id="bg"></div>
+    <script>
+        VANTA.WAVES({
+          el: "#bg",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          shininess: 18.00,
+          waveSpeed: 0.95,
+          zoom: 0.65
+        })
+    </script>
+    <div id="myName">
+        <b>Sean Tran</b>
+    </div>
+    <div id="navBar">
+        <div>
+            <button> <a href="index.html"> Home</a></button>
+            <button> <a href="aboutMe.html"> About me</a></button>
+            <button> <a href="projects.html"><b>Projects</b></a></button>
+            <button> <a href="contactMe.html"> Contact Me</a></button>
+        </div>
+        
+    </div>
+    <div id="textbox1">
+        <w>My Projects:</w>
+        <ul>
+            <li><b>New Tab Chrome Extension</b>- It implements a custom new tab when you try to open a new tab, which has a pomodoro timer, clock, and random quote. HTML/CSS, and Javascript used.</li>
+            <li><b>Google Clone</b> - A look-alike Google that also uses query searches for Image search and some advanced search features. HTML/CSS used.</li>
+            <li><b>Car Project</b> - A car that can hold a limited amount of coins to carry over a certain distance. Soldering techniques and creativity used.</li>
+            
+        </ul>
+    </div>
+    <div id="pictureBox">
+        <img src="../assets/images/newTab.png" width="50%" height="40%">
+        <div>&nbsp</div>
+        <img src="../assets/images/GoogleClone.png" width="65%" height="40%">
+        <div>&nbsp</div>
+        <img src="../assets/images/Car_project.jpg" width="40%" height="40%">
+    </div>
+</body>
+
+</html>
